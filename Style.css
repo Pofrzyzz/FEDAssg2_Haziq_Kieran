@@ -1,0 +1,93 @@
+/* Your existing CSS styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 44px;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.budget-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    background-color: #808080;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+.all-selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rectangle {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.rectangle::before {
+    content: "";
+    display: block;
+    padding-bottom: 75%;
+}
+
+/* Additional styles for the login page */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
