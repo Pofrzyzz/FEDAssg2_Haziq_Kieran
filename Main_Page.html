@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoloBuddy</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        #map {
-            height: 400px;
-            width: 100%;
-        }
-    </style>
     <!-- Include the Google Maps API script -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
 </head>
@@ -20,7 +14,6 @@
     </header>
     <div class="banner">
         <main>
-            <h2>Data from API</h2>
             <div class="budget-options">
                 <button class="option all-selected">All</button>
                 <button class="option">F&B</button>
@@ -32,15 +25,37 @@
 
     <!-- Weather Section -->
     <div class="weather-section">
-        <h2>Weather Information</h2>
+        <h2>Our Best Sellers!</h2>
         <div id="weather-data"></div>
     </div>
     
     <!-- Rectangles Container -->
     <div class="rectangle-container">
-        <div class="rectangle"></div>
-        <div class="rectangle"></div>
-        <div class="rectangle"></div>
+        <div class="rectangle">
+            <div class="frame">
+                <h3>Marina Bay Sands Hotel</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg" alt="Marina Bay Sands Hotel">
+                <p class="prices">$490</p>
+                <button class="buy-button" data-latitude="1.2838" data-longitude="103.8591">Locate</button>
+            </div>
+        </div>
+        
+        <div class="rectangle">
+            <div class="frame">
+                <h3>Lau Pa Sat Tour</h3>
+                <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/2/2018/03/Lau-Pa-Sat.png" alt="Lau Par Sat">
+                <p class="prices">$39</p>
+                <button class="buy-button" data-latitude="1.280629" data-longitude="103.850396">Locate</button>
+            </div>
+        </div>
+        <div class="rectangle">
+            <div class="frame">
+                <h3>Four Seasons Hotel</h3>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/01/e7/84/four-seasons-hotel-singapore.jpg?w=700&h=-1&s=1" alt="Four Seasons Hotel">
+                <p class="prices">$250</p>
+                <button class="buy-button" data-latitude="1.3051" data-longitude="103.8286">Locate</button>
+            </div>
+        </div>
     </div>
 
     <!-- Map Container -->

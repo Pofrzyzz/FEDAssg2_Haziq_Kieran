@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #808080;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 header {
@@ -26,6 +28,11 @@ main {
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .budget-options {
@@ -53,6 +60,7 @@ h2 {
 .rectangle-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .rectangle {
@@ -60,12 +68,40 @@ h2 {
     margin: 10px;
     background-color: #fff;
     position: relative;
+    overflow: hidden;
+    max-width: 500px;
+    max-height: auto;
 }
 
-.rectangle::before {
-    content: "";
-    display: block;
-    padding-bottom: 75%;
+.frame {
+    position: relative;
+    text-align: left;
+    padding: 10px;
+}
+
+.frame img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.frame p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
 }
 
 /* Additional styles for the login page */
@@ -79,15 +115,25 @@ input {
     margin-bottom: 10px;
 }
 
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+/* New styles for map and weather sections */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px; 
 }
 
-button:hover {
-    background-color: #0056b3;
+.weather-section {
+    text-align: center;
+    margin: 20px;
 }
+
+.prices {
+    font-size: 20px;
+    justify-content: flex-start;
+}
+
+#weather-data {
+    /* Add styles for weather data here */
+}
+
+/* Include the Google Maps API script */
