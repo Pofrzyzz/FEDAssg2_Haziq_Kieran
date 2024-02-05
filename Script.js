@@ -22,9 +22,9 @@ function initMap() {
         marker.setPosition(coordinates);
     }
 
-    // Event listener for "Buy Now" buttons
-    const buyButtons = document.querySelectorAll('.buy-button');
-    buyButtons.forEach(button => {
+    // Event listener for "Locate" buttons
+    const locateButtons = document.querySelectorAll('.locate-button');
+    locateButtons.forEach(button => {
         button.addEventListener('click', function () {
             // Extract coordinates from the dataset (you can set these in HTML)
             const lat = parseFloat(button.dataset.latitude || 0);

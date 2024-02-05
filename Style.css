@@ -64,7 +64,7 @@ h3 {
 }
 
 .all-selected {
-    background-color: #007bff;
+    background-color: #FF00FF;
     color: #fff;
 }
 
@@ -101,8 +101,8 @@ h3 {
     font-size: 16px;
 }
 
-.buy-button {
-    background-color: #007bff;
+.locate-button {
+    background-color: #FF00FF;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -111,8 +111,8 @@ h3 {
     margin-top: 10px;
 }
 
-.buy-button:hover {
-    background-color: #0056b3;
+.locate-button:hover {
+    background-color: #700770;
 }
 
 /* Additional styles for the login page */
