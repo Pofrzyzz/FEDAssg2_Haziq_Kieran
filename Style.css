@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     /* Set the background image */
-  background-image: url('https://images.unsplash.com/photo-1478860409698-8707f313ee8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 
   /* Specify the background image's size */
   background-size: cover;
@@ -17,6 +17,8 @@ body {
 
   /* Set the background color as a fallback in case the image is not available or loaded */
   background-color: #f0f0f0;
+
+
 }
 
 header {
@@ -45,6 +47,22 @@ h3 {
     font-size: 37px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+}
+.intro {
+    animation: fade-down 0.7s;
+}
+
+.background_img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
 
 .budget-options {
     display: flex;
@@ -128,7 +146,7 @@ input {
 
 /* New styles for map and weather sections */
 #map {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-top: 20px; 
 }
@@ -141,6 +159,94 @@ input {
 .prices {
     font-size: 20px;
     justify-content: flex-start;
+}
+
+
+@keyframes scrolling {
+    to {
+        transform: translate(calc(-50%))
+    }
+}
+
+
+.scroll-watcher {
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: lime;
+    width: 100%;
+    scale: 0 1;
+    transform-origin: left;
+
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+@keyframes scroll-watcher {
+    to { scale: 1 1;}
+}
+.article-header {
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: 100svh;
+    overflow-x: clip;
+    padding-block: 7rem;
+    margin-block-end: 3rem;
+
+    animation: fade-out linear;
+    animation-timeline: view();
+
+}
+
+.header-image {
+    grid-column: 1/ -1;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    z-index: -1;
+
+    
+
+    animation: header-image-animation linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
+}
+
+@keyframes fade-out {
+    to { opacity: 0;}
+}
+
+@keyframes header-image-animation {
+    25% { opacity: 1;}
+    85%, 100%{ opacity: 0; scale: 3}
+
+}
+.header-content {
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -200px; 
+}
+
+
+
+@media (prefers-reduced-motion: no-preference){
+article > .header-image{
+    Scale: .8; opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry 200px;
+   
+}
+
+@keyframes fade-in {
+    
+    to { scale: 1; opacity: 1;}
+
+}
 }
 
 #weather-data {

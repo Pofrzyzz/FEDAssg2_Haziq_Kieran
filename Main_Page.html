@@ -6,29 +6,34 @@
     <title>SoloBuddy</title>
     <link rel="stylesheet" href="style.css">
     <!-- Include the Google Maps API script -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
+    <div class="background_img">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
+    </div>
 </head>
 <body>
-    <header>
-        <h1>SoloBuddy</h1>
-    </header>
-    <div class="banner">
-        <main>
-            <div class="budget-options">
-                <button class="option all-selected">All</button>
-                <button class="option">F&B</button>
-                <button class="option">Hotels</button>
-                <button class="option">Attractions</button>
-            </div>
-        </main>
+    <div class="intro">
+        <header>
+            <h1>SoloBuddy</h1>
+        </header>
+        <div class="banner">
+            <main>
+                <div class="budget-options">
+                    <button class="option all-selected">All</button>
+                    <button class="option">F&B</button>
+                    <button class="option">Hotels</button>
+                    <button class="option">Attractions</button>
+                </div>
+            </main>
+        </div>
     </div>
+    
 
     <!-- Weather Section -->
     <div class="weather-section">
-        <h2>Our Best Sellers!</h2>
+        <h2>Find Attractions Near You!</h2>
         <div id="weather-data"></div>
     </div>
-    
+    <div id="map"></div>
     <!-- Rectangles Container -->
     <div class="rectangle-container">
         <div class="rectangle">
@@ -59,7 +64,7 @@
     </div>
 
     <!-- Map Container -->
-    <div id="map"></div>
+    
 
     <!-- Weatherbit API Script -->
     <script src="Script.js"></script>
