@@ -6,6 +6,17 @@ body {
     background-color: #808080;
     overflow-x: hidden;
     overflow-y: auto;
+    /* Set the background image */
+  background-image: url('https://images.unsplash.com/photo-1478860409698-8707f313ee8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+  /* Specify the background image's size */
+  background-size: cover;
+
+  /* Set the background to cover the entire viewport */
+  background-attachment: fixed;
+
+  /* Set the background color as a fallback in case the image is not available or loaded */
+  background-color: #f0f0f0;
 }
 
 header {
