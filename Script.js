@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
-                "x-apikey": "YOUR_RESTDB_API_KEY", // Replace with your RestDB API key
+                "x-apikey": "65b3bf7bd6d7327e91daa3cc", // Replace with your RestDB API key
             },
         })
         .then(response => {
