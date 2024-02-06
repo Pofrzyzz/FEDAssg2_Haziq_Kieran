@@ -6,34 +6,30 @@
     <title>SoloBuddy</title>
     <link rel="stylesheet" href="style.css">
     <!-- Include the Google Maps API script -->
-    <div class="background_img">
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
-    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
 </head>
 <body>
+    
     <div class="intro">
-        <header>
-            <h1>SoloBuddy</h1>
-        </header>
-        <div class="banner">
-            <main>
-                <div class="budget-options">
+    <header class="navbar">
+        <h1>SoloBuddy</h1>
+        <nav>
+                <ul>
                     <button class="option selected">All</button>
-                    <button class="option" onclick="f_bpage()">F&B</button>
+                    <button class="option">F&B</button>
                     <button class="option">Hotels</button>
                     <button class="option">Attractions</button>
-                </div>
-            </main>
-        </div>
-    </div>
-    
+                </ul>
+        </nav>
+    </header>
+    <div>
 
     <!-- Weather Section -->
     <div class="weather-section">
         <h2>Find Attractions Near You!</h2>
         <div id="weather-data"></div>
     </div>
-    <div id="map"></div>
+
     <!-- Rectangles Container -->
     <div class="rectangle-container">
         <div class="rectangle">
@@ -64,9 +60,73 @@
     </div>
 
     <!-- Map Container -->
-    
+    <div id="map"></div>
 
     <!-- Weatherbit API Script -->
     <script src="Script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grad">
+    <div class="grad">
+        <div class="about-header"> Our Purpose</div> 
+        <p>Solobuddy is all about allowing solo travellers to have the best travelling experince possible, we make travel more affordable, accessible and make sure that 
+            the connections solo travellers make are safer and more genuine than ever </p>
+        <div class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+        <button class="btn">Contact Us</button>
+        <button class="btn2">Our Stories</button>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
