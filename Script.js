@@ -116,3 +116,15 @@ document.addEventListener("DOMContentLoaded", function () {
         initMap();
     });
 });
+
+function f_bpage() {
+    window.location.href = 'F&B_Page.html';
+}
+
+function signup() {
+    window.location.href = 'Signup_Page.html'
+}
+
+function login() {
+    window.location.href = 'Login_Page.html'
+}
