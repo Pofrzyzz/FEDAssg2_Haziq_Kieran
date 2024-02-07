@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoloBuddy</title>
+    <link rel="stylesheet" href="../Subpages.css">
     <link rel="stylesheet" href="../Style.css">
     <!-- Include the Google Maps API script -->
     <div class="background_img">
@@ -12,26 +13,34 @@
 </head>
 <body>
     <div class="intro">
-        <header>
+        <header class="navbar">
             <h1>SoloBuddy</h1>
+            <nav>
+                    <ul>
+                        <button class="option selected">All</button>
+                        <button class="option" onclick="f_bpage()">F&B</button>
+                        <button class="option">Hotels</button>
+                        <button class="option">Attractions</button>
+                    </ul>
+            </nav>
         </header>
-        <div class="banner">
-            <main>
-                <div class="budget-options">
-                    <button class="option">All</button>
-                    <button class="option selected" onclick="f_bpage()">F&B</button>
-                    <button class="option">Hotels</button>
-                    <button class="option">Attractions</button>
-                </div>
-            </main>
-        </div>
+    
+
+        
+            <div class="header-container">
+                <h1> F&B Options</h1>
+                
+            </div>
+
+            <div class="banner-picture">
+                <img src="https://www.shutterstock.com/image-photo/chef-hands-keep-wok-fire-600nw-1758966962.jpg" alt="F&B">;
+            </div>
+ 
+    
+
+
+    
     </div>
-    
-
-    
-    
-
-    
-    <script src="../jsCode/Script.js"></script>
+<script src="../jsCode/Script.js"></script>
 </body>
 </html>
