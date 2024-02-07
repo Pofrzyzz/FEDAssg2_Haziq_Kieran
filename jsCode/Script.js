@@ -37,24 +37,45 @@ function initMap() {
     });
 }
 
+function mainpage() {
+    window.location.href = 'htmlCode/Main_Page.html';
+}
 
 function f_bpage() {
-    window.location.href = 'F&B_Page.html';
+    window.location.href = 'htmlCode/F&B_Page.html';
 }
 
 function signup() {
-    window.location.href = 'Signup_Page.html'
+    window.location.href = 'htmlCode/Signup_Page.html'
 }
 
 function login() {
-    window.location.href = 'Login_Page.html'
+    window.location.href = 'htmlCode/Login_Page.html'
 }
 
 function hotelpage(){
-    window.location.href = 'Hotel_Page.html'
+    window.location.href = 'htmlCode/Hotel_Page.html'
 }
 
 function attractionPage(){
-    window.location.href = 'Attraction_Page.html'
+    window.location.href = 'htmlCode/Attraction_Page.html'
 }
+
+// Script.js
+
+function validateForm() {
+    var password = document.getElementById("password").value;
+    var confirmPassword = document.getElementById("confirmPassword").value;
+
+    if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        return false;
+    }
+
+    // Continue with form submission
+    window.location.href = 'htmlCode/Main_Page.html';
+    return false;  // Prevent form submission since we're redirecting manually
+}
+
+
 
