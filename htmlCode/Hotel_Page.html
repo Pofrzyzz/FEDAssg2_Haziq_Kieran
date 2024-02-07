@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoloBuddy</title>
+    <link rel="stylesheet" href="../Subpages.css">
+    <link rel="stylesheet" href="../Style.css">
+    <!-- Include the Google Maps API script -->
+    <div class="background_img">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
+    </div>
+</head>
+<body>
+    <div class="intro">
+        <header class="navbar">
+            <h1>SoloBuddy</h1>
+            <nav>
+                <ul>
+                    <button class="option" onclick="homePage()">All</button>
+                    <button class="option" onclick="f_bpage()">F&B</button>
+                    <button class="option selected" onclick="hotelpage()">Hotels</button>
+                    <button class="option" onclick="attractionPage()">Attractions</button>
+                </ul>
+            </nav>
+        </header>
+        <section class="main">
+            <!-- Hero image with text and CTA button -->
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Food And Beverage</h1>
+                </div>
+            </div>
+    
+            <!-- Three columns for popular car models -->
+            <div class="row">
+                <!-- Card 1: BYD Atto 3 -->
+                <div class="column">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg" alt="Marina Bay Sands" style="width:100%">
+                        <div class="container">
+                            <h2>Marina Bay Sands</h2>
+                            <p class="title">Hotel</p>
+                            <p class="card-text">The top of Marina Bay Sands will give you breathtaking views of the city.</p>
+                            <p><a href="BYD.html" class="button">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 2: Porsche 911 GT3 -->
+                <div class="column">
+                    <div class="card">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/356695490.jpg?k=52d1baaf549a98987585a9308e6a028bd0382a39c067873204dd7f3afd8e7037&o=&hp=1" alt="ICG" style="width:100%">
+                        <div class="container">
+                            <h2>Intercontinental Singapore</h2>
+                            <p class="title">Hotel</p>
+                            <p class="card-text">The intercontinental provides utmost convienience and luxury in the heart of the city.</p>
+                            <p><a href="Porsche.html" class="button">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 3: BMW i7 -->
+                <div class="column">
+                    <div class="card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/01/e7/84/four-seasons-hotel-singapore.jpg?w=700&h=-1&s=1" alt="Four Seasons Hotel" style="width:100%">
+                        <div class="container">
+                            <h2>Four Seasons</h2>
+                            <p class="title">Hotel</p>
+                            <p class="card-text">The Four Seasons will provide a comfortable retreat away from the city.</p>
+                            <p><a href="BMW.html" class="button">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+    </div>
+<script src="../jsCode/Script.js"></script>
+</body>
+</html>

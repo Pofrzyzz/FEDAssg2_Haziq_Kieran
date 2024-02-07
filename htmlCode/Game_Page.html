@@ -7,10 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="../Style.css">
     <link rel="stylesheet" href="../game.css">
 </head>
 
 <body>
+    <header class="navbar">
+        <h1>SoloBuddy</h1>
+        <nav>
+                <ul>
+                    <button class="option" onclick="homePage()">All</button>
+                    <button class="option" onclick="f_bpage()">F&B</button>
+                    <button class="option" onclick="hotelpage()">Hotels</button>
+                    <button class="option" onclick="attractionPage()">Attractions</button>
+                </ul>
+        </nav>
+    </header>
     <div class="start-screen">
         <button id="start-button">Start</button>
     </div>
@@ -36,6 +48,7 @@
     </div>
 
     <script src="../game.js"></script>
+    <script src="../jsCode/Script.js"></script>
 </body>
 
 </html>

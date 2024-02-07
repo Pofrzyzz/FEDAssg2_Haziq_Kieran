@@ -6,7 +6,7 @@
   }
   body {
     height: 100vh;
-    background: linear-gradient(184deg,#8754ff,#8E2DE2);
+    background: linear-gradient(98deg,#FF00FF,grey);
   }
   .start-screen,
   .score-container {
@@ -55,7 +55,7 @@
     border-bottom: 0.1em solid #c0bfd2;
   }
   .timer-div {
-    background-color: #e1f5fe;
+    background-color: #5dbbe7;
     width: 7.5em;
     border-radius: 1.8em;
     display: flex;
@@ -66,6 +66,7 @@
   .question {
     margin-bottom: 1.25em;
     font-weight: 600;
+    color: black;
   }
   .option-div {
     font-size: 0.9em;
@@ -85,7 +86,7 @@
   #next-button {
     font-size: 1em;
     margin-top: 1.5em;
-    background-color: #8754ff;
+    background-color: rgb(74, 74, 238);
     color: #ffffff;
     padding: 0.7em 1.8em;
     border-radius: 0.3em;
