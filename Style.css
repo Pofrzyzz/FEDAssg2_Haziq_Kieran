@@ -10,24 +10,34 @@ body {
   /* background-image: url('https://t4.ftcdn.net/jpg/03/99/55/57/360_F_399555768_facLZEz0rD5YhJxTO9Z2UEaH1r4sMams.jpg'); */
 
 
+
+
   /* Specify the background image's size */
   background-size: cover;
+
+
 
 
   /* Set the background to cover the entire viewport */
   background-attachment: fixed;
 
 
+
+
   /* Set the background color as a fallback in case the image is not available or loaded */
   background-color: white;
 
+
 }
+
 
 header {
     background-color: transparent;
     padding: 20px;
     text-align: center;
 }
+
+
 
 
 h1 {
@@ -37,16 +47,22 @@ h1 {
 }
 
 
+
+
 main {
     padding: 20px;
     text-align: center;
 }
 
 
+
+
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
+
+
 
 
 h3 {
@@ -64,6 +80,8 @@ h3 {
 }
 
 
+
+
 .background_img {
     width: 100%;
     height: 100%;
@@ -73,10 +91,16 @@ h3 {
 
 
 
+
+
+
+
 .budget-options {
     display: flex;
     justify-content: space-around;
 }
+
+
 
 
 .option {
@@ -91,9 +115,15 @@ h3 {
 }
 
 
+
+
 .navbar-option {
    justify-content: center;
 }
+
+
+
+
 
 
 
@@ -103,10 +133,13 @@ h3 {
 }
 
 
+
+
 .selected {
     background-color: #FF00FF;
     color: #fff;
 }
+
 
 .game_button {
     background-color: yellow;
@@ -119,11 +152,14 @@ h3 {
     margin-right: 15px;
 }
 
+
 .rectangle-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+
 
 
 .rectangle {
@@ -137,11 +173,15 @@ h3 {
 }
 
 
+
+
 .frame {
     position: relative;
     text-align: left;
     padding: 10px;
 }
+
+
 
 
 .frame img {
@@ -151,10 +191,14 @@ h3 {
 }
 
 
+
+
 .frame p {
     margin-top: 10px;
     font-size: 16px;
 }
+
+
 
 
 .locate-button {
@@ -168,9 +212,13 @@ h3 {
 }
 
 
+
+
 .locate-button:hover {
     background-color: #700770;
 }
+
+
 
 
 /* Additional styles for the login page */
@@ -180,10 +228,14 @@ label {
 }
 
 
+
+
 input {
     padding: 8px;
     margin-bottom: 10px;
 }
+
+
 
 
 /* New styles for map and weather sections */
@@ -194,10 +246,14 @@ input {
 }
 
 
+
+
 .weather-section {
     text-align: center;
     margin: 20px;
 }
+
+
 
 
 .prices {
@@ -211,11 +267,19 @@ input {
 
 
 
+
+
+
+
 @keyframes scrolling {
     to {
         transform: translate(calc(-50%))
     }
 }
+
+
+
+
 
 
 
@@ -229,6 +293,8 @@ input {
     width: 100%;
     scale: 0 1;
     transform-origin: left;
+
+
 
 
     animation: scroll-watcher linear;
@@ -247,11 +313,17 @@ input {
     margin-block-end: 3rem;
 
 
+
+
     animation: fade-out linear;
     animation-timeline: view();
 
 
+
+
 }
+
+
 
 
 .header-image {
@@ -265,7 +337,11 @@ input {
     z-index: -1;
 
 
+
+
    
+
+
 
 
     animation: header-image-animation linear forwards;
@@ -274,14 +350,20 @@ input {
 }
 
 
+
+
 @keyframes fade-out {
     to { opacity: 0;}
 }
 
 
+
+
 @keyframes header-image-animation {
     25% { opacity: 1;}
     85%, 100%{ opacity: 0; scale: 3}
+
+
 
 
 }
@@ -290,6 +372,12 @@ input {
     animation-timeline: view();
     animation-range: exit -200px;
 }
+
+
+
+
+
+
 
 
 
@@ -306,18 +394,26 @@ article > .header-image{
 }
 
 
+
+
 @keyframes fade-in {
    
     to { scale: 1; opacity: 1;}
 
 
+
+
 }
 }
+
+
 
 
  /* #weather-data {
     Add styles for weather data here
 }  */
+
+
 
 
 .wrapper{
@@ -332,10 +428,14 @@ article > .header-image{
 }
 
 
+
+
 .wrapper h1{
     font-size: 36px;
     text-align: center;
 }
+
+
 
 
 .wrapper .input-box{
@@ -344,6 +444,8 @@ article > .header-image{
     height: 50px;
     margin: 30px 0;
 }
+
+
 
 
 .input-box input{
@@ -360,9 +462,13 @@ article > .header-image{
 }
 
 
+
+
 .input-box input::placeholder{
     color: white;
 }
+
+
 
 
 .input-box i {
@@ -374,6 +480,8 @@ article > .header-image{
 }
 
 
+
+
 .wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
@@ -382,10 +490,14 @@ article > .header-image{
 }
 
 
+
+
 .remember-forgot  label input {
     accent-color: white;
     margin-right: 3px;
 }
+
+
 
 
 .remember-forgot a {
@@ -394,9 +506,13 @@ article > .header-image{
 }
 
 
+
+
 .remember-forgot a:hover {
     text-decoration: underline;
 }
+
+
 
 
 .wrapper .btn {
@@ -414,11 +530,15 @@ article > .header-image{
 }
 
 
+
+
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
 }
+
+
 
 
 .register-link p a {
@@ -428,9 +548,13 @@ article > .header-image{
 }
 
 
+
+
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+
 
 
 /* Navigation Bar Styles */
@@ -443,7 +567,11 @@ article > .header-image{
    
 
 
+
+
 }
+
+
 
 
 .navbar h1 {
@@ -451,6 +579,8 @@ article > .header-image{
     font-size: 24px;
     color: #fff;
 }
+
+
 
 
 nav ul {
@@ -461,14 +591,20 @@ nav ul {
 }
 
 
+
+
 nav ul li {
     margin-right: 20px;
 }
 
 
+
+
 nav ul li:last-child {
     margin-right: 0;
 }
+
+
 
 
 nav ul li a {
@@ -478,9 +614,15 @@ nav ul li a {
 }
 
 
+
+
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+
+
+
 
 
 
@@ -494,6 +636,8 @@ nav ul li a:hover {
 }
 
 
+
+
 .about-header {
     font-size: 70px;
     font-family: 'Fredoka One', cursive;
@@ -501,6 +645,8 @@ nav ul li a:hover {
     color: #fff; /* Adding this line to make the header visible */
     margin: 50px;
 }
+
+
 
 
 p {
@@ -512,15 +658,21 @@ p {
 }
 
 
+
+
 .icon {
     margin-top: 20px; /* Adjust the margin to separate the icons from the text */
 }
+
+
 
 
 .btn,
 .btn2 {
     margin-top: 20px; /* Add some space between the buttons and other content */
 }
+
+
 
 
 .about-text {
@@ -530,6 +682,10 @@ p {
     text-align: center;
     margin: 0 auto; /* Horizontal centering */
 }
+
+
+
+
 
 
 
@@ -545,10 +701,14 @@ p {
 }
 
 
+
+
 .icon ion-icon:hover {
     background-color: #f44336;
     color: #fff;
 }
+
+
 
 
 .btn {
@@ -564,6 +724,8 @@ p {
 }
 
 
+
+
 .btn2 {
     width: 250px;
     height: 55px;
@@ -577,10 +739,18 @@ p {
 }
 
 
+
+
 .btn2:hover {
     background-color: #f44336;
     color: #fff;
 }
+
+
+
+
+
+
 
 
 
@@ -601,6 +771,10 @@ p {
 
 
 
+
+
+
+
 .content{
     width: 100%;
     position: absolute;
@@ -616,6 +790,8 @@ p {
 }
 
 
+
+
 .banner video{
     position: absolute;
     right: 0;
@@ -629,4 +805,279 @@ p {
     }
 }
 
+/* Media queries for responsiveness */
 
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar h1 {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .grad {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about-header {
+        font-size: 36px;
+        margin: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .icon ion-icon {
+        font-size: 20px;
+        margin: 10px 5px;
+    }
+
+    .btn,
+    .btn2 {
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .option {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .game_button {
+        padding: 8px 16px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .rectangle {
+        max-width: 400px;
+    }
+
+    .frame img {
+        max-width: 500px;
+        height: 250px;
+    }
+
+    .locate-button {
+        padding: 5px 8px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        width: 320px;
+        padding: 20px 30px;
+    }
+
+    .wrapper h1 {
+        font-size: 24px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        padding: 15px 30px 15px 15px;
+        font-size: 14px;
+    }
+
+    .remember-forgot {
+        font-size: 12px;
+    }
+
+    .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+    }
+
+    .grad {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-header {
+        font-size: 50px;
+        margin: 30px;
+    }
+
+    p {
+        line-height: 25px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .icon ion-icon {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .btn,
+    .btn2 {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .option {
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+
+    .game_button {
+        padding: 12px 24px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+    .rectangle {
+        max-width: 500px;
+    }
+
+    .frame img {
+        max-width: 600px;
+        height: 300px;
+    }
+
+    .locate-button {
+        padding: 8px 15px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        width: 420px;
+        padding: 30px 40px;
+    }
+
+    .wrapper h1 {
+        font-size: 36px;
+    }
+
+    .input-box {
+        margin: 30px 0;
+    }
+
+    .input-box input {
+        padding: 20px 45px 20px 20px;
+        font-size: 16px;
+    }
+
+    .remember-forgot {
+        font-size: 14.5px;
+    }
+
+    .btn {
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .register-link {
+        font-size: 14.5px;
+    }
+
+    .navbar {
+        padding: 10px 40px;
+    }
+
+    .navbar h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    .grad {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about-header {
+        font-size: 70px;
+        margin: 50px;
+    }
+
+    p {
+        line-height: 30px;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .icon ion-icon {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .btn,
+    .btn2 {
+        width: 250px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .banner video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%; /* Make the video cover the entire container */
+        height: 100%; /* Make the video cover the entire container */
+        object-fit: cover; /* Maintain aspect ratio while covering the container */
+    }
+}
