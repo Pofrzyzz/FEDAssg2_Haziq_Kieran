@@ -61,6 +61,10 @@ function attractionPage(){
     window.location.href = '../htmlCode/Attraction_Page.html'
 }
 
+function gamepage(){
+    window.location.href = '../htmlCode/Game_Page.html'
+}
+
 // Script.js
 
 function validateForm() {
