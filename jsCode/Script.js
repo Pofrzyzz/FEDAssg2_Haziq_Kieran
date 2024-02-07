@@ -77,5 +77,8 @@ function validateForm() {
     return false;  // Prevent form submission since we're redirecting manually
 }
 
+function homePage(){
+    window.location.href = '../htmlCode/Main_Page.html'
+}
 
 
