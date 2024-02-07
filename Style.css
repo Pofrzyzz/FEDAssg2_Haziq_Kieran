@@ -168,6 +168,7 @@ input {
 .prices {
     font-size: 20px;
     justify-content: flex-start;
+    color: black;
 }
 
 
