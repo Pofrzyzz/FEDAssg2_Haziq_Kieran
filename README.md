@@ -9,7 +9,7 @@
  Check out Hotel Services
  
 Features:
-We can log in .
+We can log in and sign up(working on it).
 There is a way to get points
 Points help to offset the price
 We added a loading screen with lottie animation
@@ -31,4 +31,6 @@ P.S.
 Kieran, try editing the readme as well. Add ur thoughts and what u think shld be added ah.
 
 Test test
+ 
+
  

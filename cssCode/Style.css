@@ -533,7 +533,7 @@ nav ul li a:hover {
 
 
 .grad {
-    background-image: linear-gradient(to right, black, white);
+    background-image: linear-gradient(to right, black, black);
     text-align: center;
     align-items: center;
     padding-top: 50px; /* Add padding to move the content down */

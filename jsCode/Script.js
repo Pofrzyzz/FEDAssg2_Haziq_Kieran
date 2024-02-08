@@ -72,5 +72,8 @@ function homePage(){
 function Profile_Page(){
     window.location.href = '../htmlCode/profile_page.html'
 }
+function lottieanimation(){
+    window.location.href = '../htmlCode/loadingPage.html'
+}
 
 
