@@ -69,6 +69,9 @@ function homePage(){
     window.location.href = '../htmlCode/Main_Page.html'
 }
 
+function Profile_Page(){
+    window.location.href = '../htmlCode/profile_page.html'
+}
 function lottieanimation(){
     window.location.href = '../htmlCode/loadingPage.html'
 }
