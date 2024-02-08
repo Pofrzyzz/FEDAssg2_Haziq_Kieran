@@ -9,11 +9,12 @@
  Check out Hotel Services
  
 Features:
-We can log in and sign up(working on it).
-There is a way to get points
-Points help to offset the price
+We can log in using a email and a password using restdb
+There is a way to get points through a game 
 We added a loading screen with lottie animation
-Profile page with a choice to delete profile (working on it)
+Profile page with user information
+different pages with categories to seperate listings
+location finder on google maps with API
 
 Design Process:
 We deviated from the wireframe itself.
@@ -27,10 +28,7 @@ We got inspiration from these few websites below:
     https://www.fizota.com/?gclid=EAIaIQobChMI8KDohL-VhAMVMY5LBR02tQU4EAAYASAAEgIukvD_BwE
 
 
-P.S. 
-Kieran, try editing the readme as well. Add ur thoughts and what u think shld be added ah.
 
-Test test
  
 
  
