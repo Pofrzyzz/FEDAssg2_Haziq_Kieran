@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #000
+}
+
+.card {
+    width: 400px; /* Increased card width */
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.image img {
+    transition: all 0.5s;
+    
+}
+
+.card:hover .image img {
+    transform: scale(1.6); /* Increased profile image scale on hover */
+}
+
+.btn {
+    height: 160px; /* Increased button height */
+    width: 160px; /* Increased button width */
+    border-radius: 50%
+}
+
+.name {
+    font-size: 26px; /* Increased name font size */
+    font-weight: bold
+}
+
+.idd {
+    font-size: 16px; /* Increased username font size */
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 14px; /* Increased user ID font size */
+}
+
+.number {
+    font-size: 26px; /* Increased number of followers font size */
+    font-weight: bold
+}
+
+.follow {
+    font-size: 14px; /* Increased followers label font size */
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 50px; /* Increased button height */
+    width: 200px; /* Increased button width */
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 20px; /* Increased button font size */
+}
+
+.text span {
+    font-size: 18px; /* Increased profile description font size */
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 24px; /* Increased social media icon size */
+}
+
+hr .new1 {
+    border: 2px solid; /* Increased border thickness */
+}
+
+.join {
+    font-size: 18px; /* Increased join date font size */
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}

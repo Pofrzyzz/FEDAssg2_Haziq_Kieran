@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoloBuddy</title>
+    <link rel="stylesheet" href="../cssCode/Style.css">
+    <link rel="stylesheet" href="../cssCode/Profile_Page.css">
+    <!-- Include the Google Maps API script -->
+    <div class="background_img">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlSR-GX5_0S58UQNKpfCKFRet6PERrumY&callback=initMap" async defer></script>
+    </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+
+
+</head>
+<body>
+    <div class="intro">
+        <header class="navbar">
+            <h1>SoloBuddy</h1>
+            <nav>
+                <ul>
+                    <button class="option" onclick="homePage()">All</button>
+                    <button class="option" onclick="f_bpage()">F&B</button>
+                    <button class="option selected" onclick="hotelpage()">Hotels</button>
+                    <button class="option" onclick="attractionPage()">Attractions</button>
+                </ul>
+            </nav>
+            <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+                <div class="card p-4">
+                    <div class="image d-flex flex-column justify-content-center align-items-center"> 
+                        <!-- Update the image source with the desired profile picture URL -->
+                        <button class="btn btn-secondary"> 
+                            <img src="https://media.istockphoto.com/id/1411901680/photo/happy-man-toothy-smile-positive-emotion-avatar.jpg?s=612x612&w=0&k=20&c=H7YtE74Fs0CuGYftk0UtPYdZtO3VgBF5cX2HYmCI0C4=" height="100" width="100" />
+                        </button> 
+                        <!-- Update the name -->
+                        <span class="name mt-3">Jonathan Lim</span> 
+                        <!-- Update the username -->
+                        <span class="idd">@JonLim</span> 
+                        <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                            <!-- Update the user ID -->
+                            <span class="idd1">#446133</span> 
+                            <span><i class="fa fa-copy"></i></span> 
+                        </div> 
+                        <!-- Update the number of followers -->
+                        <div class="d-flex flex-row justify-content-center align-items-center mt-3"> 
+                            <span class="number">4446<span class="follow">Followers</span></span> 
+                        </div> 
+                        <div class="d-flex mt-2"> 
+                            <!-- Update the button text -->
+                            <button class="btn1 btn-dark">Edit Profile</button> 
+                        </div> 
+                        <!-- Update the profile description -->
+                        <div class="text mt-3"> 
+                            <span>Hello! Im Jonathan and im a avid traveller looking to make some friends while solo travelling!</span> 
+                        </div> 
+                        <!-- Update social media icons and links -->
+                        <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center"> 
+                            <span><i class="fa fa-twitter"></i></span> 
+                            <span><i class="fa fa-facebook-f"></i></span>
+                            <span><i class="fa fa-instagram"></i></span>
+                            <span><i class="fa fa-linkedin"></i></span>
+                        </div> 
+                        <div class="px-2 rounded mt-4 date"> 
+                            <!-- Update the join date -->
+                            <span class="join">Joined Date: 4 Feb 2020</span>
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+            
+        
+        </header>
+        <section class="main">
+            
+        </section>
+
+    
+    </div>
+<script src="../jsCode/Script.js"></script>
+</body>
+</html>
