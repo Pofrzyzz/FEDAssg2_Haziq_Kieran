@@ -735,14 +735,33 @@ p {
         margin-right: 10px;
     }
 
+    .rectangle-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row; /* Change to row for horizontal layout */
+    }
+
     .rectangle {
-        width: 90%; /* Adjusted width for small screens */
-        margin: 10px auto; /* Center the rectangles */
+        width: 30%; /* Adjusted width for medium screens */
+        margin: 10px; /* Keep margin to separate rectangles */
+        background-color: #fff;
+        position: relative;
+        overflow: hidden;
+        max-width: 500px;
+        max-height: auto;
+    }
+
+    .frame {
+        position: relative;
+        text-align: left;
+        padding: 10px;
     }
 
     .frame img {
-        width: 100%; /* Make images responsive */
+        max-width: 600px;
         height: auto;
+        border: 1px solid #ddd;
     }
 
     .prices {
@@ -751,7 +770,15 @@ p {
 
     .locate-button {
         font-size: 14px; /* Adjusted font size for buttons */
+        background-color: #FF00FF;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 10px;
     }
+
     .wrapper {
         width: 320px;
         padding: 20px 30px;
@@ -789,10 +816,6 @@ p {
 
     .navbar h1 {
         font-size: 20px;
-    }
-
-    nav ul li {
-        margin-right: 15px;
     }
 
     .grad {
@@ -841,6 +864,13 @@ p {
 
     h2 {
         font-size: 32px;
+    }
+
+    .rectangle-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row; /* Change to row for horizontal layout */
     }
 
     .option {
