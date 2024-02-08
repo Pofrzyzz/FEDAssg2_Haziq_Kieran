@@ -26,6 +26,7 @@
 }
 .text{
   width: 540px;
+  color: black;
   
 }
 .text h2{
@@ -63,4 +64,12 @@ span{
 .hire:hover{
   background: #000;
   border: 1px solid #4070f4;
+}
+
+.body .about-us .about text {
+  color: black;
+}
+
+#fontcolorgo{
+  color: black;
 }
