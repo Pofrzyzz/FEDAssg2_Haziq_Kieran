@@ -65,22 +65,6 @@ function gamepage(){
     window.location.href = '../htmlCode/Game_Page.html'
 }
 
-// Script.js
-
-function validateForm() {
-    var password = document.getElementById("password").value;
-    var confirmPassword = document.getElementById("confirmPassword").value;
-
-    if (password !== confirmPassword) {
-        alert("Passwords do not match!");
-        return false;
-    }
-
-    // Continue with form submission
-    window.location.href = '../htmlCode/Main_Page.html';
-    return false;  // Prevent form submission since we're redirecting manually
-}
-
 function homePage(){
     window.location.href = '../htmlCode/Main_Page.html'
 }
