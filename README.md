@@ -7,8 +7,8 @@
  Find new places to visit
  Check out tour groups
  Check out Hotel Services
-
- Features:
+ 
+Features:
 We can log in and sign up(working on it).
 There is a way to get points
 Points help to offset the price
