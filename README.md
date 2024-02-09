@@ -16,6 +16,15 @@ Profile page with user information
 different pages with categories to seperate listings
 location finder on google maps with API
 
+API(s):
+Google Maps API:
+Google Maps API helps user to find the exact locationn of a certain booking they made or the location of the hotel they did a reservation under.
+It also helps  users find the nearest hotel to the bookings they made or find attractions near the hotels they are staying at.
+RestDB API:
+We used RestDB because we thought it was a useful API to store login information for returning users.
+We used the API for our login page.
+
+
 Design Process:
 We deviated from the wireframe itself.
 We also decided to go with a more modern look.
